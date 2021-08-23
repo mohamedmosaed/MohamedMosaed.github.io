@@ -50,11 +50,11 @@ The third hypothesis was used to find the linear equation between the dependent 
 
 **H_o:  Threr is no relation between the Estimated expenses and the profit**
 
-**H_a:  Threr is a relation between the Estimated expenses and the profit**
+**H_a:  Threr is a relation between the Estimated expenses and the profit
 
-**H_o: $\beta_1 = 0$**
+**H_o: $\beta_1 = 0$
 
-Ha: $\beta_1 \neq 0$
+**Ha :  β1≠0
 
 After learning if there is a linear relationship and I do the leaner equation I did try to add many features to the equation to improve it as much as I can. 
 
