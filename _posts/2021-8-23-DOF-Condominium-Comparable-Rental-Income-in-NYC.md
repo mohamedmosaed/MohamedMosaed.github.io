@@ -2,9 +2,9 @@
 layout: post
 title: DOF Condominium Comparable Rental Income in NYC
 subtitle: my understanding of how DOF value condominiums rent
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/NYC_image.jpg
+thumbnail-img: /assets/img/home-for-rent.jpg
+share-img: /assets/img/NYC_image.jpg
 tags: [python]
 ---
 
