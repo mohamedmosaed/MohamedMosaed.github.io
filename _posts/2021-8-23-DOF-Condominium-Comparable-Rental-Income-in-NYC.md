@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DOF Condominium Comparable Rental Income in NYC
-subtitle: my understanding of how DOF value condominiums rant
+subtitle: my understanding of how DOF value condominiums rent
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
