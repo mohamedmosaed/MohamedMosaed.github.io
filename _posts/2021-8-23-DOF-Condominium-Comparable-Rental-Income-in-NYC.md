@@ -54,7 +54,7 @@ The third hypothesis was used to find the linear equation between the dependent 
 
 **H_o: $\beta_1 = 0$**
 
-**H_a: $\beta_1 = 0$**
+Ha: $\beta_1 \neq 0$
 
 After learning if there is a linear relationship and I do the leaner equation I did try to add many features to the equation to improve it as much as I can. 
 
