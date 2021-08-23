@@ -35,9 +35,9 @@ After cleaning the data and organize it and add all the feature I need to my dat
 
 **H_a:  the Full Masket Value mean is not equal to the mean of  the Profit** 
 
-**H_o: $\mu_{full market value} = \mu_{profit}$**
+**H_o: μfullmarketvalue = μprofit**
 
-**H_a: $\mu_{full market value} \neq \mu_{profit}$**
+**H_a: μfullmarketvalue ≠ μprofit**
 
 
 My second hypothesis was to learn if there is a relation between the profit and the building classification. If the type of building would give the owner more profit or it doesn’t mater which type of building, all give the owner the same profit. So, I chose to make it between two categorical population if the building type would give us high profit or low profit. After knowing that I chose my null hypothesis to be that there is no relationship between the “Building Classification” categorical population, and the “profit category” population. My alternative hypothesis is that there is a relationship.
@@ -50,11 +50,11 @@ The third hypothesis was used to find the linear equation between the dependent 
 
 **H_o:  Threr is no relation between the Estimated expenses and the profit**
 
-**H_a:  Threr is a relation between the Estimated expenses and the profit
+**H_a:  Threr is a relation between the Estimated expenses and the profit**
 
-**H_o: $\beta_1 = 0$
+**H_o: β1 = 0**
 
-**Ha :  β1≠0
+**Ha :  β1 ≠ 0**
 
 After learning if there is a linear relationship and I do the leaner equation I did try to add many features to the equation to improve it as much as I can. 
 
