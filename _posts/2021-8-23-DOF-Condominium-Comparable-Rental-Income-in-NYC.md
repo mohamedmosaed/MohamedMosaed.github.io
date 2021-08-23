@@ -10,10 +10,6 @@ tags: [python]
 
 ## Introduction
 
-
-## Description of the data
-
-
 The Department of Finance (DOF) is required by NY State law to value condominiums as if they were residential rental apartment buildings. 
 DOF uses income information from rental properties similar in physical features and location to the condominiums. DOF applies this income 
 data to the condominium to determine its value in the same way DOF values rental apartment buildings. I choses this data because as an engineer 
