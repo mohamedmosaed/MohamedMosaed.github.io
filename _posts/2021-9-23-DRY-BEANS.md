@@ -2,7 +2,7 @@
 layout: post
 title: Dry Beans
 subtitle: predict what kind of dry beans
-cover-img: /assets/img/download (2).jpg
+cover-img: /assets/img/download_1.jpg
 thumbnail-img: /assets/img/images.jpg
 share-img: /assets/img/NYC_image.jpg
 tags: [python]
