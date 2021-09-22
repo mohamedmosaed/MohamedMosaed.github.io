@@ -39,6 +39,7 @@ Form my data set I know it is a multivariate classification problem where my tar
 
 I to further understand the data I used visualization tools like histograms and plots to further understand the data. The first visualization tool I used is heatmap to understand the correlation of the model and know if there is a high correlation or low correlation between the features. 
 ![image](https://user-images.githubusercontent.com/59778377/134404480-f5ab26f7-bd41-458c-8ecd-b8ac2e6257e5.png)
+
 Figure 1: correlation heatmap
 
 Looking at the heatmap I can see that most of the features has a high correlation. Also, that convex area and Area feature having a correlation of 1. Same thing with Compactness and Shape factor 3 feature. Furthermore, I did a scatter plot to see the correlation of the area and the perimeter which have a high correlation of 0.97. 
@@ -52,27 +53,33 @@ Then I did a bubble plot to see the how is the correlation between compactness a
 Looking these plots helped me decide to use a regression model for this problem since the model have a high correlation, I believe a Regression model would be very useful. Since this problem is a classification problem, I will use a Logistic Regression Model. Fitting a Logistic Regression algorithms, I get an accuracy score of 0%, which is really not realistic so I needed to make sure that may data is right.  I looked at my data and found that my data is not randomize and my split was not right where my model wasn’t train right. So I needed to randomize the data and re do the algorithms. After randomizing the data and refit the model I got the accuracy score to be 91.13%. to ensure my model is right and I get a right validation accuracy I used Cross-validation where I got an accuracy mean score of 91.63% for 5-fold. To ensure that my accuracy is right I used the confusion metrics to get the precision, Recall, and F1-score.
 
 ![image](https://user-images.githubusercontent.com/59778377/134404841-74208925-3fa8-45bf-91ec-53e6294f18a4.png)
+
 Figure 2: Confusion Matrix for Logistic Regression
 
 ![image](https://user-images.githubusercontent.com/59778377/134404869-33afe509-f341-4b77-86b0-440c060d56e4.png)
+
 Figure 3: Precision, Recall, and F1-score of the logistic Regression
 
 Then I used a RandomForestsClassifier model. Using a classifier model I got a high accuracy then the logistic Regression model. I got an accuracy of 92.48% when using the RandomForestsClassifier. To ensure the accuracy increase was because the classifier model did better than the Regression I compeered the confusion matrix and the precision, Recall, and F1-score between the two model.
 
 
 ![image](https://user-images.githubusercontent.com/59778377/134404937-7696b670-0043-40e9-9531-c5de1174112e.png)
+
 Figure 4:Confusion Matrix for Random Forest
 
 ![image](https://user-images.githubusercontent.com/59778377/134404966-f07fa1f3-9c8a-4081-94d3-0f98cb1a483f.png)
+
 Figure 5: Precision, Recall, and F1-score of the Random Forests
 
 Looking at figure 3 and figure 5 we can see that Random Forest model have a higher Precision, Recall, and F1-score than the logistic Regression. Another model I used was XGBoost which gave me the highest accuracy of all the model. XGBoost give me an accuracy of 92.67%. 
 
 
 ![image](https://user-images.githubusercontent.com/59778377/134405022-e6ce1214-c965-4f9e-9249-350e8d9fda09.png)
+
 Figure 6: Confusion Matrix for XGBoost
 
 ![image](https://user-images.githubusercontent.com/59778377/134405053-e3e1887c-142a-466e-8d13-8a3a700642b5.png)
+
 Figure 7:Precision, Recall, and F1-score of the XGBoost
 
 
