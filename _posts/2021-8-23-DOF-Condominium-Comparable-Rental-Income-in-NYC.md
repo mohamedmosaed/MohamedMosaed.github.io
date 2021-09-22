@@ -8,7 +8,6 @@ share-img: /assets/img/NYC_image.jpg
 tags: [python]
 ---
 
-## Introduction
 
 The Department of Finance (DOF) is required by NY State law to value condominiums as if they were residential rental apartment buildings. 
 DOF uses income information from rental properties similar in physical features and location to the condominiums. DOF applies this income 
