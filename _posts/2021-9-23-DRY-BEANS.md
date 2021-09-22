@@ -30,6 +30,7 @@ The 12 dimensions are:
 -	Solidity: The ratio of the pixels in the convex shell to those found in beans.
 -	Roundness: Calculated with the following formula: (4*pi*Area)/(Perimeter^2)
 -	Compactness: Measures the roundness of an object: (Equivalent diameter)/(Major axis length)
+
 Form my data set I know it is a multivariate classification problem where my target is the Class columns which consist of seven different classifications which are are “Horoz, Bombay, Dermason, Barbunya, seker, Sira, Cali”. 
 
 
