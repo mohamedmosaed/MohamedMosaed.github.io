@@ -36,7 +36,20 @@ Form my data set I know it is a multivariate classification problem where my tar
 
 ## Models:
 
-I to further understand the data I used visualization tools like histograms and plots to further understand the data. The first visualization tool I used is heatmap to understand the correlation of the model and know if there is a high correlation or low correlation between the features. 
+I to further understand the data I used visualization tools like histograms and plots to further understand the data. The first visualization tool I used is histograms plot to know the distributions of the data. Since Extent, Solidity, Roundness and Compactness feature have similar distribution so I did them in one plot.
+
+![image](https://user-images.githubusercontent.com/59778377/134407946-1ee2c4a1-ecc8-4297-ae72-cb264a71028b.png)
+
+Another histograms plot was the convex area feature 
+
+![image](https://user-images.githubusercontent.com/59778377/134407982-e60a685f-fd86-48df-9831-2777a6b5236a.png)
+
+
+
+
+The second visualization tool I used is heatmap to understand the correlation of the model and know if there is a high correlation or low correlation between the features. 
+
+
 ![image](https://user-images.githubusercontent.com/59778377/134404480-f5ab26f7-bd41-458c-8ecd-b8ac2e6257e5.png)
 
 Figure 1: correlation heatmap
