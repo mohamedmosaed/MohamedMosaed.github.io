@@ -95,7 +95,7 @@ Figure 6: Confusion Matrix for XGBoost
 Figure 7:Precision, Recall, and F1-score of the XGBoost
 
 
-After chinking the confusion matirx I can graduate that using an XGBoost will give us the highest accuracy score then random forest or logistic regression.
+After chinking the confusion matirx I can ensure that using an XGBoost will give us the highest accuracy score then random forest or logistic regression.
 
 
 
