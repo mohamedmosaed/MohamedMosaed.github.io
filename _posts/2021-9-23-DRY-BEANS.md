@@ -36,11 +36,12 @@ Form my data set I know it is a multivariate classification problem where my tar
 
 ## Models:
 
-#### baseline
+
+### baseline
 
 since this is a classification problem my baseline will be the majorty class of the y_train split dataset. that mean if i chosee to predict that all my prediction is one clase i will get the highest accuracy by chosing the mojority class. so i used value_counts(normalize=True).max() to get the maximum normalized value count of the class. i get my base line to be 26.21%.
 
-#### Logistic Regression
+### Logistic Regression
 
 I to further understand the data I used visualization tools like histograms and plots to further understand the data. The first visualization tool I used is histograms plot to know the distributions of the data. Since Extent, Solidity, Roundness and Compactness feature have similar distribution so I did them in one plot.
 
@@ -79,7 +80,10 @@ Figure 2: Confusion Matrix for Logistic Regression
 Figure 3: Precision, Recall, and F1-score of the logistic Regression
 
 
-#### Random Forests Classifier
+
+
+### Random Forests Classifier
+
 
 Then I used a RandomForestsClassifier model. Using a classifier model I got a high accuracy then the logistic Regression model. I got an accuracy of 92.48% when using the RandomForestsClassifier. To ensure the accuracy increase was because the classifier model did better than the Regression I compeered the confusion matrix and the precision, Recall, and F1-score between the two model.
 
@@ -92,7 +96,10 @@ Figure 4:Confusion Matrix for Random Forest
 
 Figure 5: Precision, Recall, and F1-score of the Random Forests
 
-#### XGBoost
+
+
+
+### XGBoost
 
 Looking at figure 3 and figure 5 we can see that Random Forest model have a higher Precision, Recall, and F1-score than the logistic Regression. Another model I used was XGBoost which gave me the highest accuracy of all the model. XGBoost give me an accuracy of 92.67%. 
 
